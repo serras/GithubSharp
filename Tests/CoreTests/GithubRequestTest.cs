@@ -8,7 +8,7 @@ namespace GithubSharp.Tests.CoreTests
     [TestFixture]
     public class GithubRequestTest
     {
-        [Test]
+        /*[Test]
         public void GithubRequestShouldHaveTheCorrectMimeTypeAndHttpMethod()
         {
             var baseGithubRequest = new Core.GithubRequest(
@@ -160,7 +160,7 @@ namespace GithubSharp.Tests.CoreTests
             Assert.IsNotNull(deleteResult);
 
             Assert.AreEqual(deleteResult.StatusCode, 204);
-        }
+        }*/
     }
 }
 

@@ -6,7 +6,7 @@ namespace GithubSharp.Tests.CoreTests
     [TestFixture]
     public class GistModelTest
     {
-        [Test]
+        /*[Test]
         public void TestCreateEditAndDelete()
         {
             var gistModel = GetAuthenticatedGistApi();
@@ -151,7 +151,7 @@ namespace GithubSharp.Tests.CoreTests
             var createdGist = gistApi.Create(toCreate);
 
             return createdGist;
-        }
+        }*/
     }
 }
 
